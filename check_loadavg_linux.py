@@ -10,8 +10,8 @@ import sys;
 import paramiko;
 
 def ayuda():
-    msg="qcheck_loadavg_linux : Plugin para Nagios para monitorear el load average de un host Linux.\n. NOTA: El host a monitorear debe tener cargada la clave SSH del server Nagios." \
-        "Uso: qcheck_loadavg_linux   pHost pServerUser";
+    msg="check_loadavg_linux : Plugin para Nagios para monitorear el load average de un host Linux.\n. NOTA: El host a monitorear debe tener cargada la clave SSH del server Nagios." \
+        "Uso: check_loadavg_linux   pHost pServerUser";
     print(msg);
 
 def procesar(pHost,pServerUser):
