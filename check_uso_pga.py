@@ -10,8 +10,8 @@ import sys;
 import paramiko;
 
 def ayuda():
-    msg="qcheck_uso_pga : Plugin de Nagios para monitorear el uso de memoria PGA por proceso en Oracle.\n. NOTA: El host a monitorear debe tener cargada la clave SSH del server Nagios." \
-        "Uso: qcheck_uso_pga   pHost pSID pBD pServerUser pBDUser pBDPass";
+    msg="check_uso_pga : Plugin de Nagios para monitorear el uso de memoria PGA por proceso en Oracle.\n. NOTA: El host a monitorear debe tener cargada la clave SSH del server Nagios." \
+        "Uso: check_uso_pga   pHost pSID pBD pServerUser pBDUser pBDPass";
     print(msg);
 
 def procesar(pHost,pSID,pBD,pServerUser,pBDUser,pBDPass):
