@@ -10,8 +10,8 @@ import sys;
 import paramiko;
 
 def ayuda():
-    msg="qcheck_iostat : Plugin de Nagios para monitorear el uso de un dispositivo de almacenamiento de un host Linux mediante IOSTAT.\n. NOTA: El host a monitorear debe tener cargada la clave SSH del server Nagios." \
-        "Uso: qcheck_iostat   pHost pServerUser pDev";
+    msg="check_iostat : Plugin de Nagios para monitorear el uso de un dispositivo de almacenamiento de un host Linux mediante IOSTAT.\n. NOTA: El host a monitorear debe tener cargada la clave SSH del server Nagios." \
+        "Uso: check_iostat   pHost pServerUser pDev";
     print(msg);
 
 def procesar(pHost,pServerUser,pDev):
